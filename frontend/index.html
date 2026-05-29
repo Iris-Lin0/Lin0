@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>我的旅游梦 - 全球旅行攻略</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 可选：引入字体图标库，如Font Awesome，提升视觉效果 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-globe-asia"></i> 我的旅游梦</h1>
+            <!-- 
+             i标签倾斜文本 -->
+            <p>出发，去看看这个世界！</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="attractions-list" class="attractions-grid">
+                <!-- 动态加载景点卡片 -->
+                <div class="loading-spinner">加载中...</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 我的旅游梦 | 费用数据仅供参考，实际以当地为准</p>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
+<!-- header,main,footer都是块级元素,默认占满整个浏览器窗口 -->

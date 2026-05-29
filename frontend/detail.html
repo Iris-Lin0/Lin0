@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>景点详情 - 我的旅游梦</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-map-marked-alt"></i> 景点详情</h1>
+
+            <p><a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> 返回首页</a></p>
+        </div>
+    </header>
+    <!-- <i class="fas fa-map-marked-alt"></i>：这是一个 图标标签，使用了 Font Awesome 图标库。
+fas 表示 Font Awesome 的 Solid 风格（实心图标）。
+
+fa-map-marked-alt 是图标的名称，表示一个带标记的地图图标（类似📍但更丰富）。
+
+<i> 原本表示斜体文本，但这里只用来承载图标，没有文本内容。图标库通过 CSS 伪元素在元素中显示一个字体图标。 -->
+
+    <main>
+        <div class="container">
+            <div id="detail-content" class="detail-container">
+                <!-- 动态加载详情 -->
+                <div class="loading-spinner">加载中...</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 我的旅游梦 | 费用数据仅供参考，实际以当地为准</p>
+        </div>
+    </footer>
+
+    <script src="js/detail.js"></script>
+</body>
+
+</html>
